@@ -16,4 +16,11 @@ cd lang
 mkdir vi
 cd vi
 wget -O lang.json https://github.com/Snhvn/Skyport-VN/raw/refs/heads/main/lang-vi.json
+cd ..
+clear
+rm -rf en
+mkdir en
+cd en
+wget -O lang.json https://github.com/Snhvn/Skyport-VN/raw/refs/heads/main/lang-en.json
 cd
+clear "Đã cài giờ bạn mở skyport lên nhé"

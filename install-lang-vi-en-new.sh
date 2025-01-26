@@ -1,1 +1,18 @@
 #!/bin/bash
+clear
+RED='\033[0;31m'
+echo "------------------------"
+echo "SNIPA VN"
+echo "${RED}YouTube : https://youtube.com/@snipavn205"
+echo "------------------------"
+echo "Lưu ý vào chế độ ubuntu rồi cài"
+echo "Chờ 3s để bắt đầu cài"
+sleep 3
+clear
+apt update -y
+apt install sudo && apt install wget -y
+cd panel5
+cd lang
+mkdir vi
+cd vi
+wget -O lang.json

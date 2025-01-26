@@ -15,4 +15,5 @@ cd panel5
 cd lang
 mkdir vi
 cd vi
-wget -O lang.json
+wget -O lang.json https://github.com/Snhvn/Skyport-VN/raw/refs/heads/main/lang-vi.json
+cd

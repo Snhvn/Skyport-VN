@@ -1,6 +1,7 @@
 # Skyport-VN
 ____________________________
 SNIPA VN | YOUTUBE : https://youtube.com/@snipavn205
+! Lưu Ý lệnh chỉ dành cho ubuntu/debian
 ____________________________
 
 # Cài Lang (Language) Tiếng Việt

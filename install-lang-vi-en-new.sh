@@ -23,4 +23,9 @@ mkdir en
 cd en
 wget -O lang.json https://github.com/Snhvn/Skyport-VN/raw/refs/heads/main/lang-en.json
 cd
-clear "Đã cài giờ bạn mở skyport lên nhé"
+clear
+echo "------------------------"
+echo "SNIPA VN"
+echo "${RED}YouTube : https://youtube.com/@snipavn205"
+echo "------------------------"
+echo "Đã cài giờ bạn mở skyport lên nhé"

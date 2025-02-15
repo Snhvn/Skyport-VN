@@ -1,4 +1,5 @@
 #!/bin/bash
+clear
 echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube : https://youtube.com/@snipavn205"
@@ -18,4 +19,4 @@ echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube : https://youtube.com/@snipavn205"
 echo "------------------------"
-echo "Đã Cài xong vui lòng tắt panel (đừng tắt luôn skyportd nha) , tắt panel xong thì nhập lệnh 'npm run seed' để loading mới images cũ trước đó, sau khi loading xonh thì mở lại panel nha"
+echo "Đã Cài xong vui lòng tắt panel (đừng tắt luôn skyportd nha) , tắt panel xong thì nhập lệnh 'npm run seed' (nhớ vào thư mục panel5 rồi nhập lệnh này sau) để loading mới images cũ trước đó, sau khi loading xonh thì mở lại panel nha"

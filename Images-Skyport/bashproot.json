@@ -1,1 +1,23 @@
-{"Image":"quay.io/servertipacvn/bash:proot","Cmd":"","Env":["START=chmod +x ubuntu-usermod.sh && ./ubuntu-usermod.sh "],"Scripts":{"Install":[{"Uri":"https://raw.githubusercontent.com/Snhvn/Install-Proot-And-Install-Pufferpanel/refs/heads/main/ubuntu-usermod.sh","Path":"package.json"}]},"Name":"Proot-LinuxOs","Description":"Free Vps Version Proot Ubuntu.","Author":"https://youtube.com/@snipavn205","AuthorName":"SNIPA VN","Meta":{"Version":"Skyport Images v3"}}
+{
+"Image": "quay.io/skyport/bash-proot",
+  "Cmd": "",
+  "Env": [
+    "START=chmod +x ubuntu-usermod.sh && ./ubuntu-usermod.sh"
+  ],
+  "StopCommand": "exit",
+  "Scripts": {
+    "Install": [
+      {
+        "Uri": "https://raw.githubusercontent.com/Snhvn/Install-Proot-And-Install-Pufferpanel/refs/heads/main/ubuntu-usermod.sh",
+        "Path": "ubuntu-usermod.sh"
+      }
+    ]
+  },
+  "Name": "Bash Proot: LinuxOs",
+  "Description": "Free Vps",
+  "Author": "https://youtube.com/@snipavn205",
+  "AuthorName": "SNIPA VN",
+  "Meta": {
+    "Version": "Skyport Images v2"
+  }
+}

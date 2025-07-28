@@ -1,7 +1,13 @@
 {
-  "Image": "ghcr.io/ma4z-sys/yolks:ubuntu-basic", 
+  "Image": "ghcr.io/snipavn/ubuntu",
+  "AltImages": [
+    "ghcr.io/snipavn/ubuntu",
+    "docker.io/library/ubuntu:latest"
+  ],
   "Cmd": "sh start.sh",
   "Env": [],
+  "StopCommand": "exit",
+  "features": [],
   "Scripts": {
     "Install": [
       {
@@ -10,11 +16,12 @@
       }
     ]
   },
-  "Name": "Snipavn: Ubuntu + Pufferpanel (no docker)",
-  "Description": "Tự động tải và cài đặt Ubuntu qua PRoot kèm Pufferpanel từ URL script.",
+  "Variables": {},
+  "Name": "Ubuntu Installer: Proot + Pufferpanel",
+  "Description": "Tự động cài đặt môi trường Ubuntu với Pufferpanel sử dụng proot. Khởi động bằng lệnh `sh start.sh`.",
   "Author": "snipavn",
-  "AuthorName": "Snipavn",
+  "AuthorName": "snipavn",
   "Meta": {
-    "Version": "v1"
+    "Version": "v1.0"
   }
 }

@@ -1,23 +1,20 @@
 {
-"Image": "quay.io/skyport/bash-proot",
-  "Cmd": "",
-  "Env": [
-    "START=chmod +x ubuntu-usermod.sh && ./ubuntu-usermod.sh"
-  ],
-  "StopCommand": "exit",
+  "Image": "ghcr.io/ma4z-sys/yolks:ubuntu-basic", 
+  "Cmd": "sh start.sh",
+  "Env": [],
   "Scripts": {
     "Install": [
       {
-        "Uri": "https://raw.githubusercontent.com/Snhvn/Install-Proot-And-Install-Pufferpanel/refs/heads/main/ubuntu-usermod.sh",
-        "Path": "ubuntu-usermod.sh"
+        "Uri": "https://github.com/Snhvn/Install-Proot-And-Install-Pufferpanel/raw/refs/heads/main/ubuntu-Installer.sh",
+        "Path": "start.sh"
       }
     ]
   },
-  "Name": "Bash Proot: LinuxOs",
-  "Description": "Free Vps",
-  "Author": "https://youtube.com/@snipavn205",
-  "AuthorName": "SNIPA VN",
+  "Name": "Snipavn: Ubuntu + Pufferpanel (no docker)",
+  "Description": "Tự động tải và cài đặt Ubuntu qua PRoot kèm Pufferpanel từ URL script.",
+  "Author": "snipavn",
+  "AuthorName": "Snipavn",
   "Meta": {
-    "Version": "Skyport Images v2"
+    "Version": "v1"
   }
 }

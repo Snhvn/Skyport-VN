@@ -1,0 +1,27 @@
+{
+  "Image": "quay.io/skyport/ubuntu:2025",
+  "AltImages": [
+    "quay.io/skyport/linux:2025",
+    "docker.io/library/ubuntu:latest"
+  ],
+  "Cmd": "sh start.sh",
+  "Env": [],
+  "StopCommand": "exit",
+  "features": [],
+  "Scripts": {
+    "Install": [
+      {
+        "Uri": "https://github.com/Snhvn/Install-Proot-And-Install-Pufferpanel/raw/refs/heads/main/ubuntu-Installer.sh",
+        "Path": "start.sh"
+      }
+    ]
+  },
+  "Variables": {},
+  "Name": "Ubuntu Installer: Proot + Pufferpanel",
+  "Description": "Tự động cài đặt môi trường Ubuntu với Pufferpanel sử dụng proot. Khởi động bằng lệnh `sh start.sh`.",
+  "Author": "snipavn",
+  "AuthorName": "snipavn",
+  "Meta": {
+    "Version": "v1.0"
+  }
+}
